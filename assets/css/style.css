@@ -225,3 +225,52 @@ display: flex;
     background-color: rgba(255, 223, 0, 0.05);
 }
 /* article ends */
+/* footer starts */
+.footer-section{
+    width: 1140px;
+    height: 313px;
+    margin: 80px auto 0;
+    border-radius: 16px;
+    background-image: url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section-h1{
+    margin-top: 64px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    height: 36px;
+    width: 292px;
+}
+.footer-section-p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: white;
+    height: 52px;
+    width: 606px;
+}
+.footer-section-label{
+    margin-top: 24px;
+}
+.footer-section-label-name{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+}
+.footer-section-label-button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
