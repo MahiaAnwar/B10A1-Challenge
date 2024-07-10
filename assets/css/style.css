@@ -81,11 +81,16 @@ body{
     height: 65px;
     background-color: #0D1321;
     margin-top: 32px;
-    color: white;
     font-size: 20;
     font-weight: 600;
     border-radius: 8px;
     border: none;
+}
+.first-btn{
+    text-decoration: none;
+}
+.first-btn-a{
+    color: white;
 }
 /* header ends */
 /*  main starts */
@@ -274,6 +279,9 @@ display: flex;
     font-weight: 600;
     border: none;
 }
+.footer-section-label-button-a{
+    text-decoration: none;
+}
 .footer-end{
     width: 100%;
     height: 100px;
@@ -296,6 +304,5 @@ display: flex;
 .footer-end-right{
     margin-right: 150px;
 }
-.footer-end-right-a{
-    text-decoration: none;
-}
+
+/* footer ends */
